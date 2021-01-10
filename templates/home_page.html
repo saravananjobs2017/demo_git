@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home_page</title>
+</head>
+<body>
+<h1><center>welcome everyone for my new calculator demo</h1></center>
+{% for post in posts %}
+<h1>{{ post.author}}</h1>
+<p> is very good person and he is coming from </p>
+<p>{{post.city}} </p>
+<p>{{post.blog_name}}</p>
+{% endfor %}
+</body>
+</html>
